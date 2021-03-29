@@ -83,7 +83,7 @@ public class RemoveSelectedCustomer extends Web {
         startStep("Valida a mensagem de exclusao");
 
         identifier = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".alert")));
-        identifier = webDriver.findElement(By.xpath("//span[@data-growl='message']"));
+        identifier = webDriver.findElement(By.xpath("//div[@data-growl='container']/span[@data-growl='message']"));
         Assert.assertEquals("Your data has been successfully deleted from the database.", identifier.getText());
 
         stopStep();

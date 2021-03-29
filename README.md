@@ -12,7 +12,7 @@ $ npm install -g allure-commandline --save-dev
 - Execute a suite de teste de forma manual ou executando o seguitne comando:
 
 ```
-$ mvn clean test -Dsurefire.suiteXmlFiles=src/test/java/Testsuites/ApiInscritos.xml
+$ mvn clean test -Dsurefire.suiteXmlFiles=src/test/java/Testsuites/ST_Customer.xml
 ```
 
 
