@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCases.FluxoBasico",
+    "children" : [ {
+      "name" : "cadastrar",
+      "uid" : "7786b2c95d09e4b0",
+      "parentUid" : "5832bef5354211239f5bfd8ba0158824",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616989450044,
+        "stop" : 1616989476370,
+        "duration" : 26326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "TestCases.FluxoBasico"
+  } ]
+}

@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Mar 29 00:44:10 BRT 2021","Mon Mar 29 00:44:36 BRT 2021","26326","Default Suite","prova_sicredi_web","TestCases.FluxoBasico","TestCases.FluxoBasico","cadastrar","Cadastrar novo  Customer","Teste responsavel por cadastrar um novo Customer usando o thema (Bootstrap V4)"
