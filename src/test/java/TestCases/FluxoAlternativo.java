@@ -1,5 +1,7 @@
 package TestCases;
 
+import Scripts.AddCustomer;
+import Scripts.RemoveSelectedCustomer;
 import Util.Configuracao;
 import Util.Web;
 import io.qameta.allure.*;
@@ -26,9 +28,13 @@ public class FluxoAlternativo extends Web{
     @Severity(SeverityLevel.CRITICAL)
     @Test(description="Cadastrar novo  Customer")
     @Description("Teste responsavel por cadastrar um novo Customer usando o thema (Bootstrap V4)")
-    public void cadastrar() throws IOException {
+    public void deletarCustomer() throws IOException, InterruptedException {
 
+        AddCustomer cad = new AddCustomer();
+        cad.cadastrar();
 
+        RemoveSelectedCustomer remove = new RemoveSelectedCustomer();
+        remove.removeSelected();
     }
 
     @AfterMethod
